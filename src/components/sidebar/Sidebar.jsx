@@ -41,15 +41,15 @@ function Sidebar() {
 
          <li>
             <FaFacebook className='l-ico'/>
-            <a href="https://facebook.com/raymondowusuababio">Facebook</a>
+            <a href="https://facebook.com/twiggleqweku.doppest.77">Facebook</a>
          </li>
          <li>
             <FaTwitter className='l-ico'/>
-            <a href="https://twitter.com/hezray10">Twitter</a>
+            <a href="https://twitter.com/">Twitter</a>
          </li>
          <li>
             <FaInstagram className='l-ico'/>
-            <a href="https://instgram.com/hezray10">Instagram</a>
+            <a href="https://instagram.com/hezray10">Instagram</a>
          </li>
          <li>
             <FaLinkedin className='l-ico'/>
