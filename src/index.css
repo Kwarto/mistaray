@@ -23,6 +23,10 @@ code {
 }
 
 
+html{
+  user-select: none;
+}
+
 :root{
   --container-lg: 95%;
   --container-sm: 100%;

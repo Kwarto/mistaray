@@ -36,6 +36,12 @@ export const NavBarWrapper = styled.div`
             }
         }
     }
+
+    @media screen and (max-width: 162px){
+      h4{
+        font-size: 10px;
+      }
+    }
   }
  .user{
     cursor: pointer;

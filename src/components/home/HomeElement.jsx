@@ -28,5 +28,4 @@ scroll-behavior: smooth;
 ::-webkit-scrollbar{
    background: transparent;
 }
-
 `

@@ -48,6 +48,23 @@ export const RightContentWrapper = styled.div`
                 }
             }
         }
+
+        @media screen and (max-width: 167px){
+            article{
+                margin-top: 10px;
+
+                div{
+                    padding: 10px;
+                    h5{
+                        font-size: 10px;
+                    }
+
+                    .c-ico{
+                      font-size: 10px;
+                    }
+                }
+            }
+        }
     }
 
     @media screen and (max-width: 768px){
@@ -89,12 +106,27 @@ export const RightContentWrapper = styled.div`
       width: 100%;
       .about_content{
         div{
+            h6{
+                font-size: 9px;
+            }
             padding: 0;
             p{
                 width: 100%;
             }
         }
       }  
+    }
+
+    @media screen and (max-width: 162px){
+        .about_content{
+        div{
+            padding: 0;
+            p{
+                width: 100%;
+                font-size: 8px;
+            }
+        }
+      } 
     }
 
     }
@@ -150,6 +182,37 @@ export const RightContentWrapper = styled.div`
             grid-template-columns: 1fr;
            }  
         }
+
+        @media screen and (max-width: 162px){
+         .project_section{
+            width: 100%;
+         }
+          .project_content{
+            width: 100%;
+            article{
+                width: 100%;
+                padding: 0;
+                div{
+                    width: 100%;
+                   small{
+                    font-size: 9px;
+                    font-weight: 600;
+                   }
+
+                   p{
+                    padding: 10px 0;
+                    font-size: 8px;
+                    width: 100%;
+                   }
+
+                   div{
+                    gap: 10px;
+                    font-size: 10px;
+                   }
+                }
+            }
+          }
+        }
     }
 
     .contact_section{
@@ -191,6 +254,28 @@ export const RightContentWrapper = styled.div`
       @media screen and (max-width: 1024px) {
        min-height: 20vh;
       }
+
+      @media screen and (max-width: 162px){
+        article{
+            div{
+                padding: 8px 10px;
+                margin-left: 0;
+                gap: 8px;
+                p{
+                    font-size: 8px;
+                }
+
+                .c-ico{
+                 color: rgb(235, 221, 221);
+                 font-size: 15px;
+               }
+
+               a{
+                font-size: 8px;
+               }
+            }
+        }
+      }
     }
 
     .copy{
@@ -208,6 +293,13 @@ export const RightContentWrapper = styled.div`
         font-size: 15px;
         width: 100%;
      }
+    }
+
+    @media screen and (max-width: 162px){
+        .copy{
+            font-size: 8px;
+            width: 100%;
+        }
     }
 `
 
@@ -259,6 +351,32 @@ export const IdentityWrapper = styled.div`
         h1{
             font-size: 16px;
         }
+    }
+ }
+
+ @media screen and (max-width: 162px){
+    margin-top: 3rem;
+    width: 100%;
+    div{
+        gap: 3px;
+        h2{
+            font-size: 10px;
+            text-align: center;
+        }
+
+        p{
+            font-size: 8px;
+            text-align: center;
+        }
+    }
+
+    .cv{
+        
+        padding: 8px 8px;
+        a{
+            font-size: 10px;
+        }
+
     }
  }
 `

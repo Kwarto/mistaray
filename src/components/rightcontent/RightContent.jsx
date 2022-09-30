@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaAngular, FaBootstrap, FaCloud, FaCloudDownloadAlt, FaCommentMedical, FaCss3, FaEnvelope, FaHtml5, FaJava, FaJsSquare, FaMapMarked, FaNetworkWired, FaNodeJs, FaPhone, FaPhp, FaPython, FaReact, FaSass } from 'react-icons/fa'
+import {FaBootstrap, FaCloud, FaCloudDownloadAlt, FaCommentMedical, FaCss3, FaEnvelope, FaHtml5, FaJava, FaJsSquare, FaMapMarked, FaNetworkWired, FaNodeJs, FaPhone, FaPhp, FaPython, FaReact, FaSass } from 'react-icons/fa'
 import {RightContentWrapper, IdentityWrapper} from './RightContentElement'
 function RightContent() {
   return (
@@ -69,7 +69,7 @@ function RightContent() {
            <div>
             <h6>Hello there,</h6>
             <p>
-             My name is Raymond Owusu Ababio, I'm 21 years old and a self-taught developer. I have a wide range of technical skills that I learned and continue to improve through self-education. I have over 2 years of industry experience developing fun and interactive games for mobile and web platforms. I am pursuing a career in front-end development and learning modern front-end web languages and technologies. I am a self-motivated and driven individual who is constantly eager to learn and experiment with new things.
+             My name is Raymond Owusu Ababio, I'm 22 years old and a self-taught developer. I have a wide range of technical skills that I learned and continue to improve through self-education. I have over 2 years of industry experience developing fun and interactive games for mobile and web platforms. I am pursuing a career in front-end development and learning modern front-end web languages and technologies. I am a self-motivated and driven individual who is constantly eager to learn and experiment with new things.
             </p>
            </div>
         </div>
@@ -93,9 +93,9 @@ function RightContent() {
            </article>
            <article>
              <div>
-                <small href="/">E-commerce Product Page</small>
+                <small href="/">Blog Landing Page</small>
                 <p>
-                 This is my solution to the E-commerce product page challenge on <strong>Frontend Mentor</strong>. Working on this gave in-depth experience using ReactJS and its core features like props, hooks, context API etc.
+                 This is my solution to the blogr landing page challenge on <strong>Frontend Mentor</strong>. Working on this gave in-depth experience using HTML,With CSS properties like the Flex-Box, Box Module and JavaScript. 
                 </p>
                 <div>
                  <FaHtml5 />
@@ -109,12 +109,12 @@ function RightContent() {
             <div>
                 <small href="/">E-commerce Product Page</small>
                 <p>
-                 This is my solution to the E-commerce product page challenge on <strong>Frontend Mentor</strong>. Working on this gave in-depth experience using ReactJS and its core features like props, hooks, context API etc.
+                 This is my solution to the Zip Fashion product page challenge on Capstone Project <strong>At Whizzy Academy</strong>. Working on this gave in-depth experience using ReactJS and its core features like props, hooks, context API etc.
                 </p>
                 <div>
                  <FaHtml5 />
                  <FaCss3 />
-                 <FaAngular />
+                 <FaReact />
                  <FaJsSquare />
                 </div>
             </div>
@@ -129,7 +129,7 @@ function RightContent() {
                  <FaHtml5 />
                  <FaCss3 />
                  <FaJsSquare />
-                 <FaPython />
+                 <FaReact />
                 </div>
             </div>
            </article>
