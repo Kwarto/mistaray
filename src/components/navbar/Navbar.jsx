@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavBarWrapper,} from './NavbarElement'
-import Profile from '../../img/profile.jpg'
+import Profile from '../../img/pro.jpeg'
 function Navbar() {
   return (
     <>
